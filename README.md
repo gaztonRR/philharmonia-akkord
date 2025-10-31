@@ -35,26 +35,27 @@
 
 ## 4. Структура проекта
 
+```text
 philharmonia/
 │
-├── index.php # Главная страница (афиша)
-├── performers.php # Исполнители
-├── order.php # Оформление заказа
-├── my_orders.php # Мои заказы
-├── login.php, register.php # Авторизация и регистрация
+├── index.php                  # Главная страница (афиша)
+├── performers.php             # Исполнители
+├── order.php                  # Оформление заказа
+├── my_orders.php              # Мои заказы
+├── login.php, register.php    # Авторизация и регистрация
 │
 ├── admin/
-│ ├── dashboard.php # Панель администратора
-│ ├── concerts_list.php # CRUD концертов
-│ ├── performers_list.php # CRUD исполнителей
-│ ├── orders_list.php # CRUD заказов
-│ └── logout.php
+│   ├── dashboard.php          # Панель администратора
+│   ├── concerts_list.php      # CRUD концертов
+│   ├── performers_list.php    # CRUD исполнителей
+│   ├── orders_list.php        # CRUD заказов
+│   └── logout.php
 │
-├── includes/ # header, navbar, footer
-├── assets/css/style.css # Стили оформления
-├── assets/img/ # Изображения
-└── db.sql # Структура базы данных и тестовые данные
-
+├── includes/                  # header, navbar, footer
+├── assets/css/style.css       # Стили оформления
+├── assets/img/placeholder.jpg # Заглушка изображений
+└── db.sql                     # Структура базы данных и тестовые данные
+```
 
 ---
 
