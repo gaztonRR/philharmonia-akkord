@@ -53,7 +53,7 @@ philharmonia/
 │
 ├── includes/                  # header, navbar, footer
 ├── assets/css/style.css       # Стили оформления
-├── assets/img/placeholder.jpg # Заглушка изображений
+├── assets/img/                # Изображения
 └── db.sql                     # Структура базы данных и тестовые данные
 ```
 
